@@ -1,5 +1,5 @@
 # templerun2
-I used a supervised learning technique to train an A.I. to play Temple run. My best try was a 1700m run with a 89% accurate model.
+I used a supervised learning technique to train an A.I. to play Temple run. My best try was a 1700m run with a 89% accurate model. I also summarized my project in a beginner friendly way (I hope) in case you´re interested: https://youtu.be/jr0P_gGrkPk
 
 
 
