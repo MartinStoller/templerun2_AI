@@ -2,7 +2,9 @@
 I used a supervised learning technique to train an A.I. to play Temple run. My best try was a 1700m run with a 89% accurate model.
 
 
+
 Worfklow:
+
 1.) Move window to standardized area with put_window_at_place.py
 
 2.) If not certain: check if window is covered properly with test_imagedetection.py
