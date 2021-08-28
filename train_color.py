@@ -13,7 +13,6 @@ from sklearn.model_selection import train_test_split
 from tensorflow.keras.layers import LeakyReLU, Dense, PReLU
 from tensorflow.keras.activations import elu
 
-
 header = []
 for i in range(10_351):
     header.append(str(i))
@@ -21,21 +20,11 @@ df = pd.read_csv("cleaned_doubled_maindatabase.csv", names=header)
 
 actions = df.pop("10350")
 
-
 img_train, img_test, action_train, action_test = train_test_split(np.array(df), np.array(actions), test_size=0.2)
 img_train = img_train / 255.0
 img_test = img_test / 255.0
 action_train = action_train.astype(int)
 action_test = action_test.astype(int)
-# print(action_test)
-# print(action_train)
-# print(action_train.ndim)
-# print(action_test.ndim)
-# print(action_train[0])
-# print(action_test[0])
-# time.sleep(2222)
-# print(type(img_test[0]))
-# print(type(img_train[0]))
 
 
 def load_model():

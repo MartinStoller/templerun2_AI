@@ -23,23 +23,3 @@ with open("maindatabase.csv", "r") as main:
                 last_was_zero = False
 
             last_line = line
-
-
-
-
-
-
-#
-#     reader2 = csv.reader(main)
-#     next(reader2)
-
-#         for line, next_line in zip(reader1, reader2):
-#             #print(line[-1])
-#             #print(next_line[-1])
-#             if int(line[-1]) == 0 and int(next_line[-1]) != 0:
-#                 print(line)
-#                 line[-1] = next_line[-1]
-#                 print(line)
-#                 i+=1
-#             writer.writerow(line)
-# print(i)
